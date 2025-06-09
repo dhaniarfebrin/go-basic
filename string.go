@@ -8,6 +8,9 @@ func main() {
 	fmt.Println("Dhani!")
 	fmt.Println("Dhaniar Febrin!")
 	fmt.Println("Dhaniar Febrin Wahyudi!")
+
+	fmt.Println(len("Dhani!"))        // Prints the length of the string "Dhani!"
+	fmt.Println("Dhaniar Febrin!"[9]) // Prints the byte value of the character at index 9 in the string "Dhaniar Febrin!"
 }
 
 // This program prints out a series of names.
